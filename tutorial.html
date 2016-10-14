@@ -1,0 +1,320 @@
+<!doctype html>
+	<html>
+		<head>
+		    <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <meta name="description" content="">
+            <meta name="author" content="">
+			<title>Machine-Readable Dictionary</title>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+			<link href="http://fonts.googleapis.com/css?family=Goudy+Bookletter+1911" rel="stylesheet" type="text/css">
+			<link href="http://fonts.googleapis.com/css?family=Raleway:100" rel="stylesheet" type="text/css">
+
+			<!-- Latest compiled and minified CSS -->
+			<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+			<!-- Custom styles for this template -->
+			<style type="text/css">
+
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+/* Custom default button */
+.btn-helveta,
+.btn-helveta:hover,
+.btn-helveta:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritence from `body` */
+  background-color: rgba(255,255,255,0.9);
+  border: 0;
+  border-radius: 0;
+}
+.btn-helveta:hover,
+.btn-helveta:focus {
+  background-color: rgba(255,255,255,0.5);
+
+}
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  color: #fff;
+  text-align: center;
+}
+
+h1 {
+    font-family: 'Helvetica', Helvetica, Arial, sans-serif;
+    font-size: 50px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+h2 {
+    font-family: 'Helvetica', Helvetica, Arial, sans-serif;
+    font-size: 40px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: 'Helvetica', Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+h4, h5, h6 {
+    font-family: 'Helvetica', Helvetica, Arial, sans-serif;
+    font-size: 25px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+ 
+body,
+p,
+.lead {
+    font-family: 'Times New Roman', Georgia, Times, serif;
+    font-size: 18px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+.text-black {
+  color: #000000;
+}
+
+.text-black a,
+.text-black a:hover,
+.text-black a:focus {
+  color: #000000;
+}
+ {
+  color: #000000;
+}
+
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+  background: url('images/cover.jpg') no-repeat;
+  background-size: cover;
+  background-position: center; 
+}
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+  background-color: rgba(0,15,35, 0.8);
+}
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Padding for spacing */
+.inner {
+  padding: 30px;
+}
+
+
+/*
+ * Header
+ */
+.masthead-brand {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.masthead-nav > li {
+  display: inline-block;
+}
+.masthead-nav > li + li {
+  margin-left: 20px;
+}
+.masthead-nav > li > a {
+  padding-right: 0;
+  padding-left: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff; /* IE8 proofing */
+  color: rgba(255,255,255,.75);
+  border-bottom: 2px solid transparent;
+}
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus {
+  background-color: transparent;
+  border-bottom-color: rgba(255,255,255,.25);
+}
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+@media (min-width: 768px) {
+  .masthead-brand {
+    float: left;
+  }
+  .masthead-nav {
+    float: right;
+  }
+}
+
+
+/*
+ * Cover
+ */
+
+.cover {
+  padding: 0 20px;
+}
+.cover .btn-lg {
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+
+/*
+ * Footer
+ */
+
+.mastfoot {
+  color: #999; /* IE8 proofing */
+  color: rgba(255,255,255,.5);
+}
+
+
+/*
+ * Affix and center
+ */
+
+@media (min-width: 768px) {
+  /* Pull out the header and footer */
+  .masthead {
+    position: absolute;
+    top: 0;
+  }
+  .mastfoot {
+    position: absolute;
+    bottom: 0;
+  }
+  /* Start the vertical centering */
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+  /* Handle the widths */
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+}
+
+@media (min-width: 992px) {
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 700px;
+  }
+    body {
+        font-size: 24px;
+}
+
+			</style>
+
+	</head>
+
+	<body>
+		<div class="site-wrapper">
+
+			<div class="site-wrapper-inner">
+
+			<div class="cover-container">
+
+			    <div class="masthead clearfix">
+			        <div class="inner">
+			              <!-- Fixed navbar -->
+						<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+							<div class="container">
+								<div class="navbar-header">
+								<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+									<span class="sr-only">Toggle navigation</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+								</div>
+							<div class="navbar-collapse collapse">
+								<ul class="nav navbar-nav">
+									<li><a href="main_page.html">Главная</a>
+									<li><a href="reference.html">О проекте</a></li>
+									<li><a href="tutorial.html">Инструкция</a></li>
+									<li><a href="download_page.html">Скачать</a></li>
+									<li><a href="contacts.html">Контакты</a></li>
+									<li class="dropdown">
+										<a href="#" class="dropdown-toggle" data-toggle="dropdown">Словари проекта<b class="caret"></b></a>
+										<ul class="dropdown-menu">
+											<li><a href="dmitr.html">Толковый словарь Д.В. Дмитриева</a></li>
+											<li><a href="bts.html">Большой толковый словарь С.А. Кузнецова</a></li>
+										</ul>
+									</li>
+								</ul>
+							</div><!--/.nav-collapse -->
+						</div>
+					</div>	  
+			    </div>
+			</div>
+
+			<div class="inner cover">
+			    <h1 class="cover-heading">Как пользоваться словарем</h1>
+				  <br>
+			    <p>
+			        К сожалению, мы еще сами не знаем, но скоро узнаем, и эта страничка обязательно заполнится содержимым!
+			    </p>
+          <p><img src="images/sorry.gif" alt=" "></p>
+          <br>
+          <a href="main_page.html" class="btn btn-lg btn-helveta">На главную</a>
+			</div>
+		</div>
+	</div>
+	</div>
+
+
+			<!-- Site footer -->
+			<div class="footer text-muted inner">
+			  <p>&copy; Project 2016</p>
+			</div>
+
+			<!-- Latest compiled and minified JavaScript -->
+			 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+			<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+		  
+		   
+	</body>
+</html>
