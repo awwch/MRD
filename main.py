@@ -54,6 +54,7 @@ def index():
 @app.route('/index.html', methods=['POST'])
 def search():
     key = request.form["key_word"]
+    key = key.lower()
     i = 0
     for word in all_words:  
         if key == list(word.keys())[0]:
