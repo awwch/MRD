@@ -10,6 +10,7 @@ except ImportError:
     def getuid():
         return DEFAULT_PORT - ADDITIVE_FOR_UID
 
+import re
 from flask import Flask, render_template, request
 
 app = Flask(__name__)
@@ -36,6 +37,18 @@ def reference():
 def tutorial():
     return render_template('tutorial.html') 
     
+def tag_cleaner(art):
+    fine_elements = []
+    elements = art.split('\n')
+    for element in elements:
+        if element != '':
+            m = re.match('<.+>',element)
+            if m != None:
+                element = element.strip(m.group())
+        fine_elements.append(element)
+    fine_art = '\n'.join(fine_elements)
+    return fine_art
+
 f = open('bts+tei.txt','r',encoding = 'utf-8')
 _dict = f.read().split('<superEntry>')
 all_words = []
@@ -43,9 +56,10 @@ for art in _dict:
     if art == '':
         _dict.remove(art)
     else:
+        art = tag_cleaner(art)
         elements = art.split('\n')
-        word = elements[1].strip('<orth> ').lower()
-        all_words.append({word.strip(','):art})
+        word = elements[1].strip('<orth>, ').lower()
+        all_words.append({word:art})
 
 @app.route('/index.html')
 def index():
@@ -58,7 +72,7 @@ def search():
     i = 0
     for word in all_words:  
         if key == list(word.keys())[0]:
-            result = list(word.values())[0]
+            result = list(word.values())[0].strip('"')
         else:
             i += 1        
     if i >= len(all_words):
