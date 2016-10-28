@@ -40,6 +40,11 @@ def tutorial():
 def index():
     return render_template('index.html')
     
+def open_dict(path):
+    f = open(path,'r',encoding = 'utf-8')
+    _dict = f.read().split('<superEntry>')
+    return _dict
+    
 def tag_cleaner(art):
     fine_elements = []
     elements = art.split('\n')
@@ -51,10 +56,9 @@ def tag_cleaner(art):
         fine_elements.append(element)
     fine_art = '\n'.join(fine_elements)
     return fine_art
-
-def fine_dict(path):
-    f = open(path,'r',encoding = 'utf-8')
-    _dict = f.read().split('<superEntry>')
+    
+def fine_dict():
+    _dict = open_dict('bts+tei.txt')
     all_words = []
     for art in _dict:        
         if art == '':
@@ -64,11 +68,11 @@ def fine_dict(path):
             elements = art.split('\n')
             word = elements[1].strip('<orth>, ').lower()
             all_words.append({word:art})
-    return(all_words)
+    return all_words
 
 @app.route('/index.html', methods=['POST'])
 def search():
-    all_words = fine_dict('bts+tei.txt')
+    all_words = fine_dict()
     key = request.form["key_word"]
     key = key.lower()
     i = 0
@@ -78,8 +82,7 @@ def search():
         else:
             i += 1        
     if i >= len(all_words):
-        result = 'Not found'
-    
+        result = 'Not found'    
     return render_template('/index.html', key=key, result=result)
 
 if __name__ == '__main__':
