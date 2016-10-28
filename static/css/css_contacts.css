@@ -1,0 +1,396 @@
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+/* Custom default button */
+.btn-helveta,
+.btn-helveta:hover,
+.btn-helveta:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritence from `body` */
+  background-color: rgba(255,255,255,0.9);
+  border: 0;
+  border-radius: 0;
+}
+.btn-helveta:hover,
+.btn-helveta:focus {
+  background-color: rgba(255,255,255,0.5);
+
+}
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  color: #fff;
+  text-align: center;
+}
+
+h1 {
+    font-family: 'Helvetica', Helvetica, Arial, sans-serif;
+    font-size: 50px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+h2 {
+    font-family: 'Helvetica', Helvetica, Arial, sans-serif;
+    font-size: 40px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: 'Helvetica', Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+h4, h5, h6 {
+    font-family: 'Helvetica', Helvetica, Arial, sans-serif;
+    font-size: 25px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+ 
+body,
+p,
+.lead {
+    font-family: 'Times New Roman', Georgia, Times, serif;
+    font-size: 18px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+.text-black {
+  color: #000000;
+}
+
+.text-black a,
+.text-black a:hover,
+.text-black a:focus {
+  color: #000000;
+}
+ {
+  color: #000000;
+}
+
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+  background-color: rgba(0,15,35, 0.3);
+}
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Padding for spacing */
+.inner {
+  padding: 30px;
+}
+
+
+/*
+ * Header
+ */
+.masthead-brand {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.masthead-nav > li {
+  display: inline-block;
+}
+.masthead-nav > li + li {
+  margin-left: 20px;
+}
+.masthead-nav > li > a {
+  padding-right: 0;
+  padding-left: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff; /* IE8 proofing */
+  color: rgba(255,255,255,.75);
+  border-bottom: 2px solid transparent;
+}
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus {
+  background-color: transparent;
+  border-bottom-color: rgba(255,255,255,.25);
+}
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+@media (min-width: 768px) {
+  .masthead-brand {
+    float: left;
+  }
+  .masthead-nav {
+    float: right;
+  }
+}
+
+
+/*
+ * Cover
+ */
+
+.cover {
+  padding: 0 20px;
+}
+.cover .btn-lg {
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+
+/*
+ * Footer
+ */
+
+.mastfoot {
+  color: #999; /* IE8 proofing */
+  color: rgba(255,255,255,.5);
+}
+
+
+/*
+ * Affix and center
+ */
+
+@media (min-width: 768px) {
+  /* Pull out the header and footer */
+  .masthead {
+    position: absolute;
+    top: 0;
+  }
+  .mastfoot {
+    position: absolute;
+    bottom: 0;
+  }
+  /* Start the vertical centering */
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+  /* Handle the widths */
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+}
+
+@media (min-width: 992px) {
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 700px;
+  }
+    body {
+        font-size: 24px;
+}
+
+input,
+textarea {
+    padding: 5px 8px;
+    border: 1px solid #84898b;
+    display: block;
+    margin-top: 6px;
+    color: #b1b7ba;
+    font: 12px/18px Verdana, Arial, sans-serif;
+}
+input[type="submit"] {
+    color: #fff;
+    border: 1px solid #d6942d;
+    font-size: 14px;
+    margin-top: 6px;
+    background: #ee7156;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+    padding: 4px;
+    height: 30px;
+}
+input[type="submit"]:disabled{
+    opacity: .3;
+}
+
+.open_modal{
+    position: absolute;
+    left: 50%;
+}
+.open_modal p {
+    background: #F4A460;
+    border-radius: 5px;
+    padding: 2px 44px;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin: 0 0 0 -50%;
+    display: block;
+    width: 225px;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    bottom: 0;
+    cursor: default;
+    left: 0;
+    opacity: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    visibility: hidden;
+    z-index: 99999;
+    -webkit-transition: opacity .5s;
+    -moz-transition: opacity .5s;
+    -ms-transition: opacity .5s;
+    -o-transition: opacity .5s;
+    transition: opacity .5s;
+}
+.popup, .popup2{
+    display: inline-block;
+    left: 50%;
+    opacity: 0;
+    position: fixed;
+    text-align: justify;
+    top: 40%;
+    visibility: hidden;
+    z-index: 999999;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: opacity .5s, top .5s;
+    -moz-transition: opacity .5s, top .5s;
+    -ms-transition: opacity .5s, top .5s;
+    -o-transition: opacity .5s, top .5s;
+    transition: opacity .5s, top .5s;
+}
+.popup form {
+    padding: 0 27px 20px;
+    right: 0;
+    width: 300px;
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 5px;
+    border: 1px solid #72bffc;
+    border-top: 40px solid #72bffc;
+}
+.popup2 .window {
+    padding: 0 27px 27px;
+    right: 0;
+    width: 373px;
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 5px;
+    border: 1px solid #72bffc;
+    border-top: 40px solid #72bffc;
+}
+.popup form input {
+    background: #f0f5f7;
+    margin-top: 8px;
+    width: 227px;
+}
+.popup form input[name="txtname"]{
+    margin-top: 20px;
+}
+.popup form textarea {
+    background: #f0f5f7;
+    margin-top: 8px;
+    width: 227px;
+    height: 100px;
+    resize: none;
+}
+.popup form label{
+    width: 100%;
+    height: 20px;
+    display: block;
+    margin: 8px -2px;
+    padding: 0;
+	color: #696969;
+	font-size: 12px;
+}
+.popup form input[type="submit"] {
+    background: #ee7156;
+    text-align: center;
+    text-transform: uppercase;
+    width: 245px;
+}
+.popup form input[type="checkbox"] {
+    width: auto;
+    margin: 2px;
+    padding: 2px;
+    float: left;
+}
+.popup form h5 {
+    position: absolute
+    top: 10px;
+    left: 29px;
+    font-size: 16px;
+    color: white;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin: 0;
+}
+.popup .close_modal,
+.popup2 .close_modal  {
+    position: absolute;
+    padding: 1px 4px 4px 4px;
+    top: -15px;
+    right: -15px;
+	line-height: 0.5;
+    cursor: pointer;
+    color: #fff;
+    font-family: 'tahoma', sans-serif;
+	font-size: 13px;
+    background: #ee7156;
+    text-align: center;
+}
+.popup2 h5 {
+	position: absolute;
+	top: 10px;
+	left: 120px;
+	font-size: 18px;
+	color: white;
+	font-weight: normal;
+	text-transform: uppercase;
+    margin: 0;
+}
+.popup2 p {
+	font-family: verdana;
+	font-size: 18px;
+	line-height: 24px;
+	text-align: center;
+}
+.popup2 p strong{
+	font-size: 26px;
+	line-height: 30px;
+	font-weight: normal;
+	display: block;
+}
+.popup2 hr {
+	background: #63baff;
+	height: 1px;
+	border: none;
+}
