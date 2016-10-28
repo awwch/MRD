@@ -36,6 +36,14 @@ def reference():
 @app.route('/tutorial.html')
 def tutorial():
     return render_template('tutorial.html') 
+@app.route('/index.html')
+def index():
+    return render_template('index.html')
+    
+def open_dict(path):
+    f = open(path,'r',encoding = 'utf-8')
+    _dict = f.read().split('<superEntry>')
+    return _dict
     
 def tag_cleaner(art):
     fine_elements = []
@@ -48,25 +56,23 @@ def tag_cleaner(art):
         fine_elements.append(element)
     fine_art = '\n'.join(fine_elements)
     return fine_art
-
-f = open('bts+tei.txt','r',encoding = 'utf-8')
-_dict = f.read().split('<superEntry>')
-all_words = []
-for art in _dict:        
-    if art == '':
-        _dict.remove(art)
-    else:
-        art = tag_cleaner(art)
-        elements = art.split('\n')
-        word = elements[1].strip('<orth>, ').lower()
-        all_words.append({word:art})
-
-@app.route('/index.html')
-def index():
-    return render_template('index.html')
+    
+def fine_dict():
+    _dict = open_dict('bts+tei.txt')
+    all_words = []
+    for art in _dict:        
+        if art == '':
+            _dict.remove(art)
+        else:
+            art = tag_cleaner(art)
+            elements = art.split('\n')
+            word = elements[1].strip('<orth>, ').lower()
+            all_words.append({word:art})
+    return all_words
 
 @app.route('/index.html', methods=['POST'])
 def search():
+    all_words = fine_dict()
     key = request.form["key_word"]
     key = key.lower()
     i = 0
@@ -76,8 +82,7 @@ def search():
         else:
             i += 1        
     if i >= len(all_words):
-        result = 'Not found'
-    
+        result = 'Not found'    
     return render_template('/index.html', key=key, result=result)
 
 if __name__ == '__main__':
