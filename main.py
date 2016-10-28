@@ -36,6 +36,9 @@ def reference():
 @app.route('/tutorial.html')
 def tutorial():
     return render_template('tutorial.html') 
+@app.route('/index.html')
+def index():
+    return render_template('index.html')
     
 def tag_cleaner(art):
     fine_elements = []
@@ -49,24 +52,23 @@ def tag_cleaner(art):
     fine_art = '\n'.join(fine_elements)
     return fine_art
 
-f = open('bts+tei.txt','r',encoding = 'utf-8')
-_dict = f.read().split('<superEntry>')
-all_words = []
-for art in _dict:        
-    if art == '':
-        _dict.remove(art)
-    else:
-        art = tag_cleaner(art)
-        elements = art.split('\n')
-        word = elements[1].strip('<orth>, ').lower()
-        all_words.append({word:art})
-
-@app.route('/index.html')
-def index():
-    return render_template('index.html')
+def fine_dict(path):
+    f = open(path,'r',encoding = 'utf-8')
+    _dict = f.read().split('<superEntry>')
+    all_words = []
+    for art in _dict:        
+        if art == '':
+            _dict.remove(art)
+        else:
+            art = tag_cleaner(art)
+            elements = art.split('\n')
+            word = elements[1].strip('<orth>, ').lower()
+            all_words.append({word:art})
+    return(all_words)
 
 @app.route('/index.html', methods=['POST'])
 def search():
+    all_words = fine_dict('bts+tei.txt')
     key = request.form["key_word"]
     key = key.lower()
     i = 0
