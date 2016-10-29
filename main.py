@@ -43,6 +43,7 @@ def index():
 def open_dict(path):
     f = open(path,'r',encoding = 'utf-8')
     _dict = f.read().split('<superEntry>')
+    f.close()
     return _dict
     
 def tag_cleaner(art):
@@ -57,8 +58,7 @@ def tag_cleaner(art):
     fine_art = '\n'.join(fine_elements)
     return fine_art
     
-def fine_dict():
-    _dict = open_dict('bts+tei.txt')
+def fine_dict(_dict):
     all_words = []
     for art in _dict:        
         if art == '':
@@ -69,10 +69,11 @@ def fine_dict():
             word = elements[1].strip('<orth>, ').lower()
             all_words.append({word:art})
     return all_words
-
+    
+_dict = open_dict('bts+tei.txt')
+all_words = fine_dict(_dict)
 @app.route('/index.html', methods=['POST'])
 def search():
-    all_words = fine_dict()
     key = request.form["key_word"]
     key = key.lower()
     i = 0
