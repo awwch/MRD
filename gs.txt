@@ -1,0 +1,843 @@
+<superEntry>
+    <form type="headword">
+        <orth>ПРОСТОЙ</orth>
+        <stress>ПРОСТ'ОЙ</stress>
+		<orth extent="part">-ая</orth> 
+		<orth extent="part">-ое </orth>
+    </form>   
+    <form type='inflected'>
+        <orth>прост</orth>
+		<orth extent="part">-а</orth> 
+		<orth extent="part">-о</orth>
+    </form>
+    <form type='inflected'>
+        <orth>проще</orth>
+    </form>
+    <form type='inflected'>
+        <orth>простейший</orth>
+    </form>
+    <entry n='1' type='hom'>
+        <sense n='1'>
+            <def n='1'>Несложный, нетрудный, легко доступный для понимания, выполнения, разрешения и т.п.</def>
+            <cit type="example">    
+                <q>П-ая задача.</q>
+                <q>П-ое дело.</q>
+                <q>П-ое решение.</q>
+                <q>Доводы просты и ясны.</q> 
+                <q>Жизнь не проста.</q>
+            </cit>
+            <def n='2'>Несложный по устройству, выполнению.</def>
+            <cit type="example">     
+                <q>П-ая машина.</q>
+                <q>П-ое устройство.</q> 
+                <q>П. чертёж.</q> 
+                <q>П-ая бухгалтерия
+                    <usg type='dom'>финанс.</usg> 
+                    <def>упрощённая форма счетоводства.</def></q> 
+                <q>П. этюд
+                    <usg type='dom'>муз.</usg>
+                </q>
+            </cit>
+        </sense>
+        <sense n='2'>
+            <usg type='gram'>только полн.</usg> 
+            <usg type='dom'>Спец.</usg>
+            <def>Элементарный по составу, однородный, не составной.</def>
+            <cit type="example">     
+                <q>Химически п-ые вещества 
+                    <def>состоящие из атомов одного химического элемента.</def></q>
+                <q>П-ое предложение
+                    <def>не распадающееся на самостоятельные синтаксические единицы.</def></q> 
+                <q>П-ое число
+                    <def>делящееся только на единицу и само на себя, например: 3, 5, 7, 11.</def></q> 
+            </cit>
+        </sense>
+        <sense n='3'>
+            <def>Первичный, основной, исходный.</def>
+            <cit type="example">     
+                <q>Простейшие формы монополии.</q>
+                <q>Сведение сложного труда к простому.</q> 
+                <q>П-ая заработная плата.
+                    <def>в противоположность повременно-премиальной</def></q>
+                <q>П-ое товарное производство
+                    <def>производство мелких производителей, основанное на личном труде и частной собственности на средства производства.</def></q>
+                <q>П. продукт
+                    <def>прибыль, получаемая от земледелия за вычетом издержек производства.</def></q> 
+            </cit>
+        </sense>
+        <sense n='4'>
+            <def>Безыскусственный, не замысловатый, не вычурный; скромный.</def>
+            <cit type="example">     
+                <q>П-ая мебель.</q>
+                <q>П-ая пища.</q> 
+                <q>П-ое платье.</q>
+                <q>Стихи Пушкина изящны и просты.</q>
+                <q>П-ые нравы
+                    <def>естественные, близкие природе.</def></q> 
+                <quote>Всё тихо, просто было в ней. 
+					<bibl>
+						<author>Пушкин</author>
+					</bibl>
+				</quote>
+            </cit>
+        </sense>
+        <sense n='5'>
+            <usg type='gram'>только полн.</usg>
+            <def>Обыкновенный, ничем не примечательный, не выделяющийся среди других; заурядный.</def>
+            <cit type="example">     
+                <q>П. смертный.</q>
+                <q>П-ые люди всего мира.</q> 
+                <q>Работать простым экономистом.</q>
+                <q>Говорить о самых простых вещах.</q>
+                <q>Ведь это не п-ое письмо.</q> 
+            </cit>
+        </sense>
+        <sense n='6'>
+            <def>Обычный для какого-л. вида предметов, не имеющих специального назначения, каких-л. особых признаков.</def>
+            <cit type="example">     
+                <q>Налей простой водички.</q>
+                    <def>без каких-л. добавлений</def>
+                <q>П-ая карта</q> 
+                    <def>не козырная</def>
+                <q>П-ые дроби.</q>
+                    <def>не десятичные</def>
+                <q>П. год.</q>
+                    <def>не високосный</def>
+                <q>П-ое письмо, п-ая посылка, бандероль.</q> 
+                    <def>не ценные, не заказные, не срочные</def>
+            </cit>
+        </sense>
+        <sense n='7'>
+            <usg type='gram'>только полн.</usg>
+            <def>Недостаточно обработанный, отделанный; грубый по качеству, не лучшего качества.</def>
+            <cit type="example">     
+                <q>Мука простого помола.</q>
+                <q>П-ое мыло.</q> 
+                <q>П-ая соль.</q>
+                <q>Писать на простой синей бумаге.</q>
+                <q>П. холст 
+                    <def>небелёный</def></q>
+                <q>П-ые чулки 
+                   <def>хлопчатобумажные</def>
+                </q>
+            </cit>
+        </sense>
+        <sense n='8'>
+            <usg type='gram'>только полн.</usg>
+            <def>Ничем не осложнённый, понимаемый в прямом, узком смысле.</def>
+            <cit type="example">     
+                <q>Принять решение простым большинством голосов.</q>
+                <q>Нельзя ограничиться простым отрицанием войны.</q> 
+                <q>Это не п-ое любопытство.</q>
+            </cit>
+        </sense>
+        <sense n='9'>
+            <def n='1'>Открытый, откровенный, бесхитростный, прямой; не церемонный.</def>
+            <cit type="example">     
+                <q>Я человек простой, скажу всё как есть.</q>
+                <q>Душа у него п-ая.</q> 
+            </cit>
+            <def n='2'>Проникнутый бесхитростностью, откровенностью, прямотой.</def>
+            <cit type="example">     
+                <q>П-ые народные песни.</q>
+                <q>Установились п-ые дружеские отношения.</q> 
+            </cit>
+        </sense>
+        <sense n='10'>
+            <usg type='style'>Разг.</usg>
+            <def>Недалёкий по уму, глуповатый, наивный.</def>
+            <cit type="example">     
+                <q>Старикан не так прост, как кажется.</q>
+                <q>Нельзя быть таким простым.</q> 
+                <q>Соблазнился от простого ума.</q>
+            </cit>
+        </sense>
+        <sense n='11'>
+            <usg type='gram'>только полн.</usg>
+            <usg type='time'>Ист.</usg>
+            <def n='1'>Принадлежащий к непривилегированному классу, сословию.</def>
+            <cit type="example">     
+                <q>П. народ.</q>
+                <q>Дед мой был простым крестьянином.</q> 
+            </cit>
+            <def n='2'>Непривилегированный, низкий (о происхождении, звании и т.п.).</def>
+            <cit type="example">     
+                <q>А.Кольцов простого происхождения.</q>
+                <q>Молодой человек простого звания.</q>
+                <q>Из простого сословия кто-л.</q> 
+            </cit>
+            <gram type = “pos”>в зн. сущ.</gram>
+            <cit type="example">     
+                <q>Семья была из простых.</q>
+            </cit>
+        </sense>
+    </entry>
+    <entry n='2' type='colloc'>
+        <form type='phrase'>
+            <orth>Простым глазом.</orth> 
+        </form>
+        <sense n=1>
+            <def n='1'>Без помощи оптического прибора.</def>
+            <def n='2'>Сразу, без особых исследований, пристального изучения.</def>
+            <cit type="example">     
+                <q>Его некомпетентность видна простым глазом.</q>
+            </cit>
+        </sense>
+    </entry>
+    <entry n=3, type='derivative'>
+        <form type='derivative'>
+            <orth>Простое</orth>
+            <orth extent="part">-ого</orth>
+		</form>
+        <gram type=”gen”>ср.</gram>
+        <cit type="example">     
+            <q>Самое простое - отмахнуться.</q>
+        </cit>
+    </entry>
+    <entry n=4, type='derivative'>
+        <form type='derivative'>
+            <orth>Простенький</orth>
+            <orth extent="part">-ая</orth>
+            <orth extent="part">-oe</orth>
+		</form>
+        <usg type='reg'>Смягчит.</usg>
+    </entry>
+    <entry n=5, type='derivative'>
+		<xr>см.
+			<ref>Простота</ref>
+		</xr> 
+    </entry>
+    <entry n=6, type='derivative'>
+		<xr>см.<ref>Просто</ref></xr> 
+    </entry>
+    <entry n=7 type='derivative'>
+        <form type='derivative'>
+            <orth>По-простому</orth>
+		</form>
+        <gram type=”pos”>нареч.</gram>
+        <xr>
+			<ref>4, 7 зн.</ref>
+		</xr>
+        <cit type="example">     
+            <q>Квартира обставлена по-простому.</q>
+            <q>Всё расскажи по-простому. </q>
+        </cit>
+    </entry>
+    <entry n=8 type='colloc'>
+        <form type='phrase'>
+            <orth>Проще простого</orth>
+		</form>
+        <gram type="pos">в зн. нареч.</gram>
+        <usg type='style'>Разг.</usg>
+		<sense n=1>            
+			<def>Очень легко, просто.</def> 
+		</sense>
+    </entry>
+    <entry n='9' type='hom'>
+		<form>
+            <orth extent="part">-я</orth> 
+		</form>
+        <gram type=”gen”>м.</gram>
+        <sense n='1'>
+            <def>Непредвиденная остановка в работе или вынужденное бездействие механизмов.</def>
+            <cit type="example">     
+                <q>Производственный п.</q>
+                <q>Платить за п.</q>
+                <q>Неделя простоя.</q>
+                <q>Борьба с простоями.</q>
+            </cit>
+        </sense>
+    </entry>
+    <entry n=10, type='derivative'>
+        <form type='derivative'>
+            <orth>Простойный</orth>
+            <orth extent="part">-ая</orth> 
+            <orth extent="part">-ое </orth>
+		</form>
+        <cit type='example'>
+            <q>П-ое время.</q>
+            <q>П-ые деньги.</q>
+        </cit>
+    </entry>
+</superEntry>
+<superEntry>
+    <form type="headword">
+        <orth>ИСПОЛЬЗОВАТЬ</orth>                                                                                  
+		<stress>ИСП\'ОЛЬЗОВАТЬ</stress>
+        <orth extent="part">-зую</orth>
+        <orth extent="part">-зуешь</orth>
+    </form>
+    <gramGrp>
+	    <subc>св. и нсв.</subc>
+    </gramGrp>
+    <entry n="1" type="hom">
+        <sense n="1">
+            <def n="1">Употребить - употреблять что-л. для какого-л. дела.</def>
+            <cit type="example">
+                <q>И. вещь по своему назначению.</q>
+                <q>И. машинную технику.</q>
+            </cit>
+        </sense>
+        <sense n="2">
+            <def n="1">Воспользоваться чем-л. в своих интересах.</def>
+            <cit type="example">
+                <q>И. служебное положение.</q>
+                <q>И. в ч\"ем-л. свои возможности.</q>
+            </cit>
+        </sense>
+    </entry>
+    <entry n="2" type="derivative">
+        <form type="derivative">                
+			<orth>Использоваться</orth>
+			<stress>Исп\'ользоваться</stress>
+            <orth extent="part">-зуется</orth>
+		        </form>
+        <gramGrp>
+             <iType>страд.</iType>
+        <gramGrp>
+    </entry>
+    <entry n="3" type="derivative">
+		<form type="derivative">
+			<orth>Использование</orth>
+			<stress>Исп\'ользование</stress>
+			<orth extent="part">-я</orth>
+        </form>
+		<gram type=”gen”>ср.</gram>
+		<cit type="example">
+			<q>И. атомной энергии.</q>
+			<q>И. своего опыта.</q>
+		</cit>
+	</entry>
+</superEntry>
+<superEntry>
+    <form type="headword">
+        <orth>НИЗМЕННЫЙ</orth>
+		<stress>Н\'ИЗМЕННЫЙ</stress>
+		<orth extent="part">-ая</orth>
+        <orth extent="part">-ое </orth>
+    </form>
+    <entry n="1" type="hom">
+        <sense n="1">
+            <def n="1">Расположенный ниже окружающей местности; низкий.</def>
+            <cit type="example">
+                <q>Н. берег реки.</q>
+                <q>Н-ые луга.</q>
+                <q>Река разлилась по низменным местам.</q>
+            </cit>
+        </sense>
+        <form type="inflected">
+            <orth extent="part">-мен</orth>
+            <orth extent="part">-менна</orth>
+            <orth extent="part">-менно</orth>
+        </form>
+        <sense n="2">
+            <def n="1">Подлый, бесчестный; безнравственный.</def>
+            <cit type="example">
+                <q>Н-ые желания, побуждения.</q>
+                <q>Н-ая мысль.</q>
+				<q>Н. человек.</q>
+            </cit>
+        </sense>
+		<sense n="3">
+            <def n="1">Похотливый, непристойный.</def>
+            <cit type="example">
+                <q>Н-ые инстинкты.</q>
+                <q>Н. взгляд.</q>
+                <q>Н-ая страсть.</q>
+                <q>Н-ые намёки.</q>
+            </cit>
+        </sense>
+    </entry>
+    <entry n="2" type="derivative">
+        <form>
+            <orth>Низменно</orth>
+            <stress>Н\'изменно</stress>
+        </form>
+        <gram type="pos">нареч.</gram>
+    </entry>
+    <entry n="3" type="derivative">
+        <form>
+            <orth>Низменность</orth>
+            <stress>Н\'изменность</stress>
+            <orth extent="part">-и</orth>
+        </form>
+        <gram type=”gen”>ж.</gen>
+		<cit type="example">
+			<q>Н. его позиции была очевидна.</q>
+			<q>Н. поведения.</q>
+			<q>Н. помыслов.</q>
+		</cit>
+    </entry>
+</superEntry>
+<superEntry>
+	<form type="headword">
+		<orth> НАСТРОЕНИЕ</orth>
+		<stress>НАСТРО\'ЕНИЕ</stress>
+		<orth extent="part">я</orth>
+	</form>
+	<gram type=”gen”>ср.</gram>
+    <entry n="1" type="hom">
+		<sense n="1">
+			<usg type='gram'>обычно с определением.</usg>
+			<def n="1">Душевное состояние.</def>
+			<cit type="example">
+				<q>Вес\"елое, грустное, хорошее, плохое н.</q>
+				<q>Минутное н.</q>
+				<q>Почувствовать н. подруги.</q>
+				<q>Человек настроения
+					<def>(о человеке, поступки которого определяются его душевным состоянием)</def>
+				</q>
+            </cit>
+			<def n="2">Хорошее расположение духа.</def>
+			<usg type='style'>разг.</usg>
+            <cit type="example">
+				<q>Испортить н.</q>
+				<q>Кто-л. не в настроении</q>
+			</cit>                                
+		</sense>
+		<sense n="2">
+			<def n="1">Направление мыслей, взглядов, интересов, чувств и т.п. кого-, чего-л.</def>
+            <cit type="example">
+				<q>Антивоенные настроения.</q>
+				<q>Частнособственнические настроения.</q>
+				<q>Изучать н. общества.</q>
+				<q>Контролировать н. толпы.</q>
+			</cit>
+		</sense>
+		<sense n="3">
+			<usg type='gram'>с инфинитивом.</usg>
+			<def n="1">Расположение, склонность, желание делать что-л., заняться чем-л.</def>
+			<cit type="example">
+				<q>Есть н. поговорить.</q>
+				<q>Нет настроения идти в театр.</q>
+		</sense>
+	</entry>
+</superEntry>
+<superEntry>
+    <form type="headword">
+        <orth>КРАСИВЫЙ</orth>
+        <stress>КРАС\'ИВЫЙ</stress>
+		<orth extent="part">-ая</orth> 
+		<orth extent="part">-ое </orth>
+    </form> 
+    <form type='inflected'>
+        <orth extent="part"> -сив</orth>
+		<stress>-с\'ив</stress>
+        <orth extent="part"> -а</orth> 
+        <orth extent="part">-о</orth>
+    </form>
+    <form type='inflected'> 
+        <orth>красивее</orth>
+        <stress> крас\'ивее </stress>
+    </form>
+    <form type='inflected'>
+        <orth>краше</orth>
+        <stress>кр\'аше</stress>
+        <usg type='style'>нар.-поэт.</usg>
+    </form>
+    <entry n="1" type="hom">
+        <form>
+			<orth extent="part">-ая</orth>
+			<orth extent="part">-ое </orth>
+        </form>       
+        <sense n="1">
+            <def n="1">Приятный на вид, отличающийся правильностью очертаний, гармонией красок, тонов, линий и т.п.</def>
+            <cit type="example">
+                <q>К. цветок.</q>
+                <q>К-ые ткани.</q>
+                <q>К-ые черты лица.</q>
+                <q>У не\"е к-ые руки.</q>
+            </cit>
+        </sense>
+        <sense n="2">
+            <def n="1">Имеющий такие черты лица, фигуру; привлекательный, видный.</def>
+        </sense>
+        <sense n="3">
+            <def n="1">Отличающийся стройностью и изяществом движений.</def>
+            <cit type="example">
+                <q>К. танец.</q>
+                <q>К-ая походка.</q>
+            </cit>
+        </sense>
+        <sense n="4">
+            <def n="1">Приятный для слуха, благозвучный.</def>
+            <cit type="example">
+                <q>К-ая музыка.</q>
+                <q>К. голос.</q>
+            </cit>
+        </sense> 
+        <sense n="5">
+            <def n="1">Отличающийся полнотой и глубиной внутреннего содержания.</def>
+            <cit type="example">
+                <q>Жить полной, к. жизнью.</q>
+                <q>У этого человека к-ая душа.</q>
+            </cit>
+            <def n="2">Благородный, достойный в нравственном отношении.</def>
+            <cit type="example">
+            </cit>
+        </sense> 
+        <sense n="6">
+            <def n="1">Рассчитанный на эффект, на внешнее впечатление.</def>
+            <cit type="example">
+                <q>К. жест.</q>
+                <q>К-ая фраза.</q>
+                <q>Вс\"е это - к-ые слова!</q>
+            </cit>
+        </sense>
+    </entry>
+    <entry n="2" type="derivative">
+        <form type='derivative'>
+            <orth>Красиво</orth>
+            <stress> Крас\'иво </stress>
+        </form>
+        <gram type=”pos”>нареч.</gram>
+        <cit type="example">
+            <q>К. очерченный рот.</q>
+            <q>К. наклониться в танце.</q>
+            <q>Солист к. вед\"ет свою партию.</q>
+            <q>Поступить к.</q>
+            <q>Не говори слишком к.!</q>
+            <q>Уметь к. одеваться.</q>
+        </cit>
+    </entry>
+    <entry n="3" type="derivative">
+        <form type='derivative'>
+            <xr>см.<ref>Красота</ref></xr>
+        </form>
+    </entry>
+</superEntry>
+<superEntry>
+	<form type="headword">
+		<orth>ТЕМ</orth>
+	</form>
+	<gram type="pos">частица</gram>
+	<usg>с прилагательным и наречием в сравнительной степени</usg>
+	<sense n="1">
+		<def n="1">Обозначает высокую степень проявления указанного признака, состояния.</def>
+		<cit type="example">
+			<q>Я здесь нужен, тем труднее мне уехать.</q>
+			<q>Он человек строгий, тем ценнее его похвала.</q>
+			<q>Тем хуже для вас.</q>
+		</cit>
+	</sense>
+	</entry>
+	<entry n="2" type='colloc'>
+		<form type='phrase'>
+			<orth>Тем более</orth>
+			<gram type="pos">в зн. частицы</gram>
+		</form>
+		<sense n="1">
+			<def n="1">И подавно.</def>
+			<cit type="example">
+				<q>Я т. более не хочу.</q>
+			</cit>
+		</sense>
+	</entry>
+	<entry n="3" type='colloc'>
+		<form type='phrase'>
+			<orth>Тем более что</orth>
+			<gram type = “pos”>в зн. союза</gram>
+		</form>
+		<sense n="1">
+			<def n="1">В особенности потому, что.</def>
+		</sense>
+	</entry>
+	<entry n="4" type='colloc'>
+		<form type='phrase'>
+			<orth>Тем не менее</orth>
+		</form>
+		<gram type = “pos”>в зн. вводн. сл.</gram>
+		<xr>=
+			<ref>Одн\'ако.</ref>
+		</xr>
+	</entry>
+	<entry n="5" type='colloc'>
+		<form type='phrase'>
+			<orth>Тем паче</orth>
+		</form>
+		<gram type="pos">в зн. частицы</gram>
+		<usg type="style">Книжн.</usg>
+		<xr>=
+			<ref>Тем более.</ref>
+		</xr>
+	</entry>
+	<entry n="6" type='colloc'>
+		<form type='phrase'>
+			<orth>Тем лучше</orth>
+		</form>
+		<gram type="pos">в зн. межд.</gram>
+		<sense n="1">
+			<def n="1">Выражает одобрение.</def>
+		</sense>
+	</entry>
+	<entry n="7" type='colloc'>
+		<form type='phrase'>
+			<orth>Тем самым</orth>
+		</form>
+		<gram type="pos">в зн. союза</gram>
+	</entry>
+	<entry n="8" type='colloc'>
+		<form type='phrase'>
+			<orth>Чем..., тем</orth>
+		</form>
+		<xr>см.
+			<ref>Чем</ref> 
+		</xr>
+	</entry>
+<superEntry>
+<superEntry>
+    <form type="headword">
+        <orth>КРЕМНИСТЫЙ</orth>
+        <stress>КРЕМН\'ИСТЫЙ</stress>
+        <orth extent="part">-ая</orth>
+        <orth extent="part">-ое </orth>
+    </form>
+    <form type='inflected'>
+        <orth extent="part">-нист</orth>
+		<stress> -н\'ист</stress>
+        <orth extent="part">-а</orth>
+        <orth extent="part"> -о.</orth>
+    </form>
+    <entry n="1" type="hom">
+        <usg type='style'>Трад.-поэт.</usg>
+        <sense n="1">
+            <def n="1">Усеянный камнями; каменистый.</def>
+            <cit type="example">
+                <q>К-ые вершины гор</q>
+                <quote>Сквозь туман кремнистый путь блестит
+					<bibl>
+						<author>Лермонтов</author>
+					</bibl>
+				</quote>               
+            </cit>
+        </sense>
+    </entry>
+    <entry n="2" type="hom">
+		<sense n="1">
+			<xr>к 
+				<ref>Кр\'емний.</ref>
+			<xr>
+			<cit type="example">
+				<q>К-ые соединения.</q>
+			</cit>
+			<def n="1">Содержащий кремний.</def>
+			<cit type="example">
+				<q>К-ая сталь.</q>
+			</cit>
+        </sense>
+        <sense n="2">
+            <def n="1">Состоящий из кремнез\"ема.</def>
+            <cit type="example">
+                <q>К. туф.</q>
+                <q> К-ые породы.</q>
+                <q> К. сланец.</q>
+            </cit>
+        </sense> 
+    </entry>
+</superEntry>
+<superEntry>
+	<form type="headword">
+		<orth>ВСЁ</orth>
+	</form>
+	<entry n="1" type="hom">
+		<gram type="pos">нареч.</gram>
+		<sense n="1">
+			<usg type="style">Разг.</usg>
+			<def>Всегда, постоянно.</def>
+			<cit type="example">
+				<q>Я всё забываю, как его зовут.</q>
+				<q>Вы всё в разъездах.</q>
+				<q>С утра до вечера всё на ногах.</q>
+				<quote>*Не всё коту масленица
+					<bibl>
+						<source>(Погов.)</source>
+					</bibl>
+				</quote>
+			</cit>
+		</sense>
+		<sense n="2">
+			<def>До сих пор.</def>
+			<cit type="example">
+				<q>Уже ночь, а его всё нет.</q>
+				<q>Закройщица всё больна?</q>
+			</cit>
+		</sense>
+		<sense n="3">
+			<def>Только, исключительно, именно.</def>
+			<cit type="example">
+				<q>Это всё вы виноваты.</q>
+				<q>Это всё из-за тебя.</q>
+			</cit>
+		</sense>
+	</entry>
+	<entry n="2" type="hom">
+		<gram type="pos">частица.</gram>
+		<usg>(со сл., обозначающим изменяющийся признак)</usg>
+		<sense n="1">
+			<def>Указывает на нарастание или устойчивость признака.</def>
+			<cit type="example">
+				<q>Шум всё сильней.</q>
+				<q>Больной всё слабеет.</q>
+				<q>На улице всё так же холодно.</q>
+				<q>Она всё такая же.</q>
+			</cit>
+		</sense>
+	</entry>
+	<entry n="3" type="hom">
+		<gram type="pos">союз</gram>
+		<sense n="1">
+			<usg type="style">Разг.</usg>
+			<def>Всё-таки.</def>
+			<cit type="example">
+				<q>Почитайте, всё не так скучно будет.</q>
+				<q>С ней всё веселей, чем одной.</q>
+			</cit>
+		</sense>
+		<sense n="2">
+			<def>Однако, тем не менее.</def>
+			<cit type="example">
+				<q>Как ни стараешься, всё недовольны.</q>
+				<quote>*А вы, друзья, как ни садитесь, Всё в музыканты не годитесь
+					<bibl>
+						<author>(Крылов)</author>
+					</bibl>
+				</quote>
+			</cit>
+		</sense>
+	</entry>
+	<entry n="4" type="colloc">
+		<lbl>(И, но, а)</lbl>
+		<form type="phrase">всё ж;</form>
+		<form type=" phrase ">всё же;</form>
+		<form type=" phrase">всё ж таки.</form>
+		<sense n="1">
+			<gram type="pos">в зн. частицы</gram>
+			<def>Употр. для усиления, подчёркивания смысла высказывания.</def>
+			<cit type="example">
+				<q>И всё же согласился?</q>
+				<q>Всё же успел.</q>
+				<q>А (но) всё же простила его.</q>
+				<q>И всё ж таки ты не прав.</q>
+			</cit>
+		</sense>
+		<sense n="2">
+			<gram type="pos">в зн. союза</gram>
+			<def>Однако, тем не менее.</def>
+			<cit type="example">
+				<q>Задача была сложной, (и, но, а) всё же удалось её решить.</q>
+			</cit>
+		</sense>
+		<sense n="3">
+			<def>Всё ещё,</def>
+			<gram type="pos">в зн. нареч.</gram>
+			<usg type="style">Усилит.</usg>
+			<xr>
+				<ref>(1,3 зн.)</ref>
+			</xr>
+			<cit type="example">
+				<q>Он мне всё ещё чужой.</q>
+			</cit>
+		</sense>
+	</entry>
+</superEntry>
+<superEntry>
+		<form type="headword">
+			<orth>СЕМЕЧКА</orth>
+     		<stress>СЕМ\'ЕЧКА</stress>
+		</form>
+		<entry n="1" type="hom">
+			<form>
+				<orth extent="part">-и</orth>
+				<orth extent="part">-чек</orth>
+				<orth extent="part">-чкам</orth>
+			</form>
+			<gramGrp>
+				<number value="plural"></number>
+				<gram type=”gen”>ж.</gram>
+			</gramGrp>
+			<sense n="1">
+				<def n="1">Одно семечко подсолнуха или тыквы.</def>
+				<cit type="example">
+					<q>Разгрызть семечку.</q>
+					<q>Полная, пустая с.</q>
+				</cit>
+			</sense>
+		</entry>
+	</superEntry>
+<superEntry>
+	<form type="headword">
+			<orth>ОБЕР-ОФИЦЕР</orth>
+			<stress>\'ОБЕР-ОФИЦ\'ЕР</stress>
+			<orth extent="part">-a</orth>
+	</form>
+	<entry n="1" type="hom">
+		<gram type=”gen”> м.</gram>
+		<sense n="1">
+			<def>В России до 1917 г. и некоторых других странах: офицерский чин от прапорщика (корнета, хорунжего) до капитана (ротмистра, есаула) включительно; офицер в таком чине.</def>
+			<cit type="example">
+				<q>Младший обер-офицер.</q>
+				<q>Служил обер-офицером.</q>
+			</cit>
+		</sense>
+	</entry>
+	<entry n="2" type="derivative">
+		<form>
+			<orth>Обер-офицерский</orth>
+			<orth extent="part">-ая</orth>
+			<orth extent="part">-ое</orth>
+		<form>
+		<sense n="1">
+			<cit type="example">
+				<q>Дослужился до обер-офицерского чина.</q>
+			</cit>
+		</sense>
+	</entry>
+</superEntry>
+<superEntry>
+	<form type="headword">
+		<orth>ОБ</orth>
+	</form>
+	<entry n="1" type="hom">
+		<gramGrp>приставка</gramGrp>
+		<usg type="gram">служит для образования глаголов</usg>
+		<sense n="1">
+			<def n="1"> Употр. вместо "о..." перед гласной</def>
+			<cit type="example">
+				<q>обыграть</q>
+				<q>обыскать</q>
+				<q>обучить</q>
+			</cit>
+			<def n="2">в некоторых случаях перед согласной</def>
+			<cit type="example">
+				<q>обвалять</q>
+				<q>обсчитать</q>
+			</cit>
+		</sense>
+		<sense n="2">
+			<usg type = "gram">(обычно глаголы с приставкой об... имеют более разговорный и более конкретный характер, чем глаголы с приставкой о...).</usg>
+			<def n = "1">Употр. в некоторых случаях наряду с приставкой "о..." перед согласной</def>
+			<cit type="example">
+				<q>обсыпать</q>
+				<lbl>(ср. осыпать)</lbl>
+			</cit>
+		</sense>
+		<sense n="3">
+			<def n="1">Обозначает: не учесть, обойти кого-, что-л. при распределении чего-л.</def>
+			<cit type="example">
+				<q>Обнести, обделить.</q>
+			</cit>
+		</sense>
+		<sense n="4">
+			<def n="1">Обозначает: опередить кого-л. в действии, проявить своё превосходство над кем-, чем-л. в выполнении действия.</def>
+			<cit type="example">
+				<q>Обскакать, обставить</q>
+			</cit>
+		</sense>
+	</entry>
+</superEntry>
+
+
+
+
+
+

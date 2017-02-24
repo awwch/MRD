@@ -1,582 +1,128 @@
-<div class="superEntry">
-    <div class="headword">
-		<p>ПРОСТОЙ</p>
-        <div class="stress">ПРОСТ'ОЙ</div>
-		<div class="orth part">-ая</div>
-		<div class="orth part">-ое</div>
-    </div>   
-    <div class="'inflected">
-        <p>прост</p>
-		<div class="orth part">-а</div> 
-		<div class="orth part">-о</div>
-    </div>
-    <div class="'inflected">
-        <p>проще</p>
-    </div>
-    <div class="'inflected">
-        <p>простейший</p>
-    </div>
-    <div class="entry">
-        <div class="sense">
-            <div class="def">Несложный, нетрудный, легко доступный для понимания, выполнения, разрешения и т.п.</div>
-            <div class="example">    
-                <p>П-ая задача.</p>
-                <p>П-ое дело.</p>
-                <p>П-ое решение.</p>
-                <p>Доводы просты и ясны.</p> 
-                <p>Жизнь не проста.</p>
-            </div>
-            <div class="def">Несложный по устройству, выполнению.</div>
-            <div class="example">     
-                <p>П-ая машина.</p>
-                <p>П-ое устройство.</p> 
-                <p>П. чертёж.</p> 
-                <p>П-ая бухгалтерия
-                    <div class="usg">финанс.</div> 
-                    <div class="def">упрощённая форма счетоводства.</div></p> 
-                <p>П. этюд
-                    <div class="usg">муз.</div>
-                </p>
-            </div>
-        </div>
-        <div class="sense">
-            <div class="usg">только полн.</div> 
-            <div class="usg">Спец.</div>
-            <div class="def">Элементарный по составу, однородный, не составной.</div>
-            <div class="example">     
-                <p>Химически п-ые вещества 
-                    <div class="def">состоящие из атомов одного химического элемента.</div></p>
-                <p>П-ое предложение
-                    <div class="def">не распадающееся на самостоятельные синтаксические единицы.</div></p> 
-                <p>П-ое число
-                    <div class="def">делящееся только на единицу и само на себя, например: 3, 5, 7, 11.</div></p> 
-            </div>
-        </div>
-        <div class="sense">
-            <div class="def">Первичный, основной, исходный.</div>
-            <div class="example">     
-                <p>Простейшие формы монополии.</p>
-                <p>Сведение сложного труда к простому.</p> 
-                <p>П-ая заработная плата.
-                    <div class="def">в противоположность повременно-премиальной</div></p>
-                <p>П-ое товарное производство
-                    <div class="def">производство мелких производителей, основанное на личном труде и частной собственности на средства производства.</div></p>
-                <p>П. продукт
-                    <div class="def">прибыль, получаемая от земледелия за вычетом издержек производства.</div></p> 
-            </div>
-        </div>
-        <div class="sense">
-            <div class="def">Безыскусственный, не замысловатый, не вычурный; скромный.</div>
-            <div class="example">     
-                <p>П-ая мебель.</p>
-                <p>П-ая пища.</p> 
-                <p>П-ое платье.</p>
-                <p>Стихи Пушкина изящны и просты.</p>
-                <p>П-ые нравы
-                    <div class="def">естественные, близкие природе.</div></p> 
-                <div class="'quote">Всё тихо, просто было в ней. 
-					<div class="'bibl">
-						<p>Пушкин</p>
-					</div class="'bibl">
-				</div>
-            </div>
-        </div>
-        <div class="sense">
-            <div class="usg">только полн.</div>
-            <div class="def">Обыкновенный, ничем не примечательный, не выделяющийся среди других; заурядный.</div>
-            <div class="example">     
-                <p>П. смертный.</p>
-                <p>П-ые люди всего мира.</p> 
-                <p>Работать простым экономистом.</p>
-                <p>Говорить о самых простых вещах.</p>
-                <p>Ведь это не п-ое письмо.</p> 
-            </div>
-        </div>
-        <div class="sense">
-            <div class="def">Обычный для какого-л. вида предметов, не имеющих специального назначения, каких-л. особых признаков.</div>
-            <div class="example">     
-                <p>Налей простой водички.</p>
-                    <div class="def">без каких-л. добавлений</div>
-                <p>П-ая карта</p> 
-                    <div class="def">не козырная</div>
-                <p>П-ые дроби.</p>
-                    <div class="def">не десятичные</div>
-                <p>П. год.</p>
-                    <div class="def">не високосный</div>
-                <p>П-ое письмо, п-ая посылка, бандероль.</p> 
-                    <div class="def">не ценные, не заказные, не срочные</div>
-            </div>
-        </div>
-        <div class="sense">
-            <div class="usg">только полн.</div>
-            <div class="def">Недостаточно обработанный, отделанный; грубый по качеству, не лучшего качества.</div>
-            <div class="example">     
-                <p>Мука простого помола.</p>
-                <p>П-ое мыло.</p> 
-                <p>П-ая соль.</p>
-                <p>Писать на простой синей бумаге.</p>
-                <p>П. холст 
-                    <div class="def">небелёный</div></p>
-                <p>П-ые чулки 
-                   <div class="def">хлопчатобумажные</div>
-                </p>
-            </div>
-        </div>
-        <div class="sense">
-            <div class="usg">только полн.</div>
-            <div class="def">Ничем не осложнённый, понимаемый в прямом, узком смысле.</div>
-            <div class="example">     
-                <p>Принять решение простым большинством голосов.</p>
-                <p>Нельзя ограничиться простым отрицанием войны.</p> 
-                <p>Это не п-ое любопытство.</p>
-            </div>
-        </div>
-        <div class="sense">
-            <div class="def">Открытый, откровенный, бесхитростный, прямой; не церемонный.</div>
-            <div class="example">     
-                <p>Я человек простой, скажу всё как есть.</p>
-                <p>Душа у него п-ая.</p> 
-            </div>
-            <div class="def">Проникнутый бесхитростностью, откровенностью, прямотой.</div>
-            <div class="example">     
-                <p>П-ые народные песни.</p>
-                <p>Установились п-ые дружеские отношения.</p> 
-            </div>
-        </div>
-        <div class="sense">
-            <div class="usg">Разг.</div>
-            <div class="def">Недалёкий по уму, глуповатый, наивный.</div>
-            <div class="example">     
-                <p>Старикан не так прост, как кажется.</p>
-                <p>Нельзя быть таким простым.</p> 
-                <p>Соблазнился от простого ума.</p>
-            </div>
-        </div>
-        <div class="sense">
-            <div class="usg">только полн.</div>
-            <div class="usg">Ист.</div>
-            <div class="def">Принадлежащий к непривилегированному классу, сословию.</div>
-            <div class="example">     
-                <p>П. народ.</p>
-                <p>Дед мой был простым крестьянином.</p> 
-            </div>
-            <div class="def">Непривилегированный, низкий (о происхождении, звании и т.п.).</div>
-            <div class="example">     
-                <p>А.Кольцов простого происхождения.</p>
-                <p>Молодой человек простого звания.</p>
-                <p>Из простого сословия кто-л.</p> 
-            </div>
-            <div class="gram_lbl">в зн. сущ.</div>
-            <div class="example">     
-                <p>Семья была из простых.</p>
-            </div>
-        </div>
-    </div>
-    <div class="entry">
-        <div class="phrase">
-            <p>Простым глазом.</p> 
-        </div>
-        <div class="sense">
-            <div class="def">Без помощи оптического прибора.</div>
-            <div class="def">Сразу, без особых исследований, пристального изучения.</div>
-            <div class="example">     
-                <p>Его некомпетентность видна простым глазом.</p>
-            </div>
-        </div>
-    </div>
-    <div class="derivative">
-        <div class="derivative">
-            <p>Простое</div>
-            <div class="orth part">-ого</div>
-		</div>
-        <div class="gram_lbl">ср.</div>
-        <div class="example">     
-            <p>Самое простое - отмахнуться.</p>
-        </div>
-    </div>
-    <div class="derivative">
-        <div class="derivative">
-            <p>Простенький</p>
-            <div class="orth part">-ая</div>
-            <div class="orth part">-oe</div>
-		</div>
-        <div class="usg">Смягчит.</div>
-    </div>
-    <div class="derivative">
-		<div class="xr">см.
-			<a href='#'>Простота</a>
-		</div>
-    </div>
-    <div class="derivative">
-		<div class="xr">см.<a href='#'>Просто</a></div>
-    </div>
-    <div class="derivative">
-        <div class="derivative">
-            <p>По-простому</p>
-		</div>
-        <div class="gram_lbl">нареч.</div>
-        <div class="xr">
-			<a href='#'>4, 7 зн.</a>
-		</div>
-        <div class="example">     
-            <p>Квартира обставлена по-простому.</p>
-            <p>Всё расскажи по-простому. </p>
-        </div>
-    </div>
-    <div class="entry">
-        <div class="phrase">
-            <p>Проще простого</p>
-		</div>
-        <div class="gram_lbl">в зн. нареч.</div>
-        <div class="usg">Разг.</div>
-		<div class="sense">            
-			<div class="def">Очень легко, просто.</div> 
-		</div>
-    </div>
-    <div class="entry">
-		<form>
-            <div class="orth part">-я</div> 
-		</div>
-        <div class="gram_lbl">м.</div>
-        <div class="sense">
-            <div class="def">Непредвиденная остановка в работе или вынужденное бездействие механизмов.</div>
-            <div class="example">     
-                <p>Производственный п.</p>
-                <p>Платить за п.</p>
-                <p>Неделя простоя.</p>
-                <p>Борьба с простоями.</p>
-            </div>
-        </div>
-    </div>
-    <div class="derivative">
-        <div class="derivative">
-            <p>Простойный</p>
-            <div class="orth part">-ая</div> 
-            <div class="orth part">-ое</div>
-		</div>
-        <div class="example">
-            <p>П-ое время.</p>
-            <p>П-ые деньги.</p>
-        </div>
-    </div>
 </div>
+
 <div class="superEntry">
-    <div class="headword">
-		<p>ИСПОЛЬЗОВАТЬ</p>
-		<div class="stress">ИСП\'ОЛЬЗОВАТЬ</div class="stress">
-        <div class="orth part">-зую</div>
-        <div class="orth part">-зуешь</div>
-    </div>
-    <div class="Gram">
-	    <div class="gram_lbl">св. и нсв.</div>
-    </div>
-    <div class="entry">
-        <div class="sense">
-            <div class="def">Употребить - употреблять что-л. для какого-л. дела.</div>
-            <div class="example">
-                <p>И. вещь по своему назначению.</p>
-                <p>И. машинную технику.</p>
-            </div>
-        </div>
-        <div class="sense">
-            <div class="def">Воспользоваться чем-л. в своих интересах.</div>
-            <div class="example">
-                <p>И. служебное положение.</p>
-                <p>И. в ч\"ем-л. свои возможности.</p>
-            </div>
-        </div>
-    </div>
-    <div class="entry">
-        <div class="derivative">                
-			<p>Использоваться</p>
-			<div class="stress">Исп\'ользоваться</div class="stress">
-            <div class="orth part">-зуется</div>
-		        </div>
-        <div class="Gram">
-             <div class="gram_lbl">страд.</div>
-        <div class="Gram">
-    </div>
-    <div class="entry">
-		<div class="derivative">
-			<p>Использование</p>
-			<div class="stress">Исп\'ользование</div class="stress">
-			<div class="orth part">-я</div>
-        </div>
-		<div class="gram_lbl">ср.</div>
-		<div class="example">
-			<p>И. атомной энергии.</p>
-			<p>И. своего опыта.</p>
-		</div>
-	</div>
-</div class="superEntry">
-<div class="superEntry">
-    <div class="headword">
-		<p>НИЗМЕННЫЙ</p>
-		<div class="stress">Н\'ИЗМЕННЫЙ</div class="stress">
-		<div class="orth part">-ая</div>
-        <div class="orth part">-ое</div>
-    </div>
-    <div class="entry">
-        <div class="sense">
-            <div class="def">Расположенный ниже окружающей местности; низкий.</div>
-            <div class="example">
-                <p>Н. берег реки.</p>
-                <p>Н-ые луга.</p>
-                <p>Река разлилась по низменным местам.</p>
-            </div>
-        </div>
-        <form type="inflected">
-            <div class="orth part">-мен</div>
-            <div class="orth part">-менна</div>
-            <div class="orth part">-менно</div>
-        </div>
-        <div class="sense">
-            <div class="def">Подлый, бесчестный; безнравственный.</div>
-            <div class="example">
-                <p>Н-ые желания, побуждения.</p>
-                <p>Н-ая мысль.</p>
-				<p>Н. человек.</p>
-            </div>
-        </div>
-		<div class="sense">
-            <div class="def">Похотливый, непристойный.</div>
-            <div class="example">
-                <p>Н-ые инстинкты.</p>
-                <p>Н. взгляд.</p>
-                <p>Н-ая страсть.</p>
-                <p>Н-ые намёки.</p>
-            </div>
-        </div>
-    </div>
-    <div class="entry">
-        <form>
-            <p>Низменно</p>
-            <div class="stress">Н\'изменно</div class="stress">
-        </div>
-        <div class="gram_lbl">нареч.</div>
-    </div>
-    <div class="entry">
-        <form>
-            <p>Низменность</p>
-            <div class="stress">Н\'изменность</div class="stress">
-            <div class="orth part">-и</div>
-        </div>
-        <div class="gram_lbl">ж.</div>
-		<div class="example">
-			<p>Н. его позиции была очевидна.</p>
-			<p>Н. поведения.</p>
-			<p>Н. помыслов.</p>
-		</div>
-    </div>
-</div class="superEntry">
-<div class="superEntry">
+<div class="main_def">
 	<div class="headword">
-		<p>НАСТРОЕНИЕ</p>
-		<div class="stress">НАСТРО\'ЕНИЕ</div class="stress">
-		<div class="orth part">я</div>
+		<p>ОБЕР-ОФИЦЕР</p>
 	</div>
-	<div class="gram_lbl">ср.</div>
-    <div class="entry">
-		<div class="sense">
-			<div class="usg">обычно с определением.</div>
-			<div class="def">Душевное состояние.</div>
-			<div class="example">
-				<p>Вес\"елое, грустное, хорошее, плохое н.</p>
-				<p>Минутное н.</p>
-				<p>Почувствовать н. подруги.</p>
-				<p>Человек настроения
-					<div class="def">(о человеке, поступки которого определяются его душевным состоянием)</div>
-				</p>
-            </div>
-			<div class="def">Хорошее расположение духа.</div>
-			<div class="usg">разг.</div>
-            <div class="example">
-				<p>Испортить н.</p>
-				<p>Кто-л. не в настроении</p>
-			</div>                                
+	<div class="stress">ОБЕР-ОФИЦ\'ЕР</div>
+	<div class="orth_part" id = "1" style = "display: none;">
+	<p>-a</p>
+	<div class="gram_lbl"> м.
+	</div>
+	</div>
+	<div class="def">В России до 1917 г. и некоторых других странах: офицерский чин от прапорщика (корнета, хорунжего) до капитана (ротмистра, есаула) включительно; офицер в таком чине.</div>
+	<div class="example" id = "3" style = "display: none;">
+		<p>Младший обер-офицер.</p>
+		<p>Служил обер-офицером.</p>
+	</div>
+	<div class="derivates" id = "4" style = "display: none;">
+		<div class="derivative">
+			<p>Обер-офицерский</p>
 		</div>
-		<div class="sense">
-			<div class="def">Направление мыслей, взглядов, интересов, чувств и т.п. кого-, чего-л.</div>
-            <div class="example">
-				<p>Антивоенные настроения.</p>
-				<p>Частнособственнические настроения.</p>
-				<p>Изучать н. общества.</p>
-				<p>Контролировать н. толпы.</p>
-			</div>
-		</div>
-		<div class="sense">
-			<div class="usg">с инфинитивом.</div>
-			<div class="def">Расположение, склонность, желание делать что-л., заняться чем-л.</div>
-			<div class="example">
-				<p>Есть н. поговорить.</p>
-				<p>Нет настроения идти в театр.</p>
+		<div class="orth_part">-ая</div>
+		<div class="orth_part">-ое</div>
+		<div class="example">
+			<p>Дослужился до обер-офицерского чина.</p>
 		</div>
 	</div>
-</div class="superEntry">
+
 <div class="superEntry">
-    <div class="headword">
-        <p>КРАСИВЫЙ</p>
-        <div class="stress">КРАС\'ИВЫЙ</div class="stress">
-		<div class="orth part">-ая</div>
-		<div class="orth part">-ое</div>
-    </div> 
-    <div class="'inflected">
-        <div class="orth part"> -сив</div>
-		<div class="stress">-с\'ив</div class="stress">
-        <div class="orth part"> -а</div> 
-        <div class="orth part">-о</div>
-    </div>
-    <div class="'inflected"> 
-        <p>красивее</p>
-        <div class="stress"> крас\'ивее </div class="stress">
-    </div>
-    <div class="'inflected">
-        <p>краше</p>
-        <div class="stress">кр\'аше</div class="stress">
-        <div class="usg">нар.-поэт.</div>
-    </div>
-    <div class="entry">
-        <form>
-			<div class="orth part">-ая</div>
-			<div class="orth part">-ое </div>
-        </div>       
-        <div class="sense">
-            <div class="def">Приятный на вид, отличающийся правильностью очертаний, гармонией красок, тонов, линий и т.п.</div>
-            <div class="example">
-                <p>К. цветок.</p>
-                <p>К-ые ткани.</p>
-                <p>К-ые черты лица.</p>
-                <p>У не\"е к-ые руки.</p>
-            </div>
-        </div>
-        <div class="sense">
-            <div class="def">Имеющий такие черты лица, фигуру; привлекательный, видный.</div>
-        </div>
-        <div class="sense">
-            <div class="def">Отличающийся стройностью и изяществом движений.</div>
-            <div class="example">
-                <p>К. танец.</p>
-                <p>К-ая походка.</p>
-            </div>
-        </div>
-        <div class="sense">
-            <div class="def">Приятный для слуха, благозвучный.</div>
-            <div class="example">
-                <p>К-ая музыка.</p>
-                <p>К. голос.</p>
-            </div>
-        </div> 
-        <div class="sense">
-            <div class="def">Отличающийся полнотой и глубиной внутреннего содержания.</div>
-            <div class="example">
-                <p>Жить полной, к. жизнью.</p>
-                <p>У этого человека к-ая душа.</p>
-            </div>
-            <div class="def">Благородный, достойный в нравственном отношении.</div>
-            <div class="example">
-            </div>
-        </div> 
-        <div class="sense">
-            <div class="def">Рассчитанный на эффект, на внешнее впечатление.</div>
-            <div class="example">
-                <p>К. жест.</p>
-                <p>К-ая фраза.</p>
-                <p>Вс\"е это - к-ые слова!</p>
-            </div>
-        </div>
-    </div>
-    <div class="entry">
-        <div class="derivative">
-            <p>Красиво</p>
-            <div class="stress"> Крас\'иво </div class="stress">
-        </div>
-        <div class="gram_lbl">нареч.</div>
-        <div class="example">
-            <p>К. очерченный рот.</p>
-            <p>К. наклониться в танце.</p>
-            <p>Солист к. вед\"ет свою партию.</p>
-            <p>Поступить к.</p>
-            <p>Не говори слишком к.!</p>
-            <p>Уметь к. одеваться.</p>
-        </div>
-    </div>
-    <div class="entry">
-        <div class="derivative">
-            <div class="xr">см.<a href='#'>Красота</a></div>
-        </div>
-    </div>
-</div class="superEntry">
+<div class="main_def">
+	<div class="headword">
+		<p>СЕМЕЧКА</p>
+	</div>
+     <div class="stress">СЕМ\'ЕЧКА</div>
+	<div class="orth_part" id="1" style ="display: none;">
+	<p>семечки</p>
+	<p>семечек</p>
+	<p>семечкам</p>
+	<div class="gram_lbl">ж.
+	</div>
+	</div>
+	<div class="def">Одно семечко подсолнуха или тыквы.</div>
+	<div class="example" id = "3" style = "display: none;">
+		<p>Разгрызть семечку.</p>
+		<p>Полная, пустая с.</p>
+	</div>
+</div>
+</div>
+
 <div class="superEntry">
+<div class="main_def">
 	<div class="headword">
 		<p>ТЕМ</p>
 	</div>
-	<div class="gram_lbl">частица</div>
-	<div class="usg">с прилагательным и наречием в сравнительной степени</div>
-	<div class="sense">
-		<div class="def">Обозначает высокую степень проявления указанного признака, состояния.</div>
-		<div class="example">
-			<p>Я здесь нужен, тем труднее мне уехать.</p>
-			<p>Он человек строгий, тем ценнее его похвала.</p>
-			<p>Тем хуже для вас.</p>
-		</div>
+	<div class ="stress">ТЕ&#x301М</div>
+	<div class="gram_lbl" id = "1" style = "display: none;">частица</div>
+
+	<div class="usg" id = "5" style = "display: none;">с прилагательным и наречием в сравнительной степени</div>
+
+	<div class="def"> <!--id = "2" style = "display: none;"-->Обозначает высокую степень проявления указанного признака, состояния.</div>
+	<div class="example" id = "3" style = "display: none;">
+		<p>Я здесь нужен, тем труднее мне уехать.</p>
+		<p>Он человек строгий, тем ценнее его похвала.</p>
+		<p>Тем хуже для вас.</p>
 	</div>
+</div>
+
+<div class="derivates" id = "4" style = "display: none;">
+<div class="der_phrase">
+	<div class="phrase">
+		<p>Тем более</p>
 	</div>
-	<div class="entry">
-		<div class="phrase">
-			<p>Тем более</p>
-			<div class="gram_lbl">в зн. частицы</div>
-		</div>
-		<div class="sense">
-			<div class="def">И подавно.</div>
-			<div class="example">
-				<p>Я т. более не хочу.</p>
-			</div>
-		</div>
+	<div class="gram_lbl" id = "1" ><!--style = "display: none;"-->в зн. частицы</div>
+	<div class="def" id = "2" ><!--style = "display: none;"-->И подавно.</div>
+	<div class="example" id = "3" ><!--style = "display: none;"-->
+		<p>Я т. более не хочу.</p>
 	</div>
-	<div class="entry">
-		<div class="phrase">
-			<p>Тем более что</p>
-			<div class="gram_lbl">в зн. союза</div>
-		</div>
-		<div class="sense">
-			<div class="def">В особенности потому, что.</div>
-		</div>
+</div>
+
+<div class="der_phrase">
+	<div class="phrase" >
+		<p>Тем более что</p>
 	</div>
-	<div class="entry">
-		<div class="phrase">
-			<p>Тем не менее</p>
-		</div>
-		<div class="gram_lbl">в зн. вводн. сл.</div>
-		<div class="xr">=
-			<a href='#'>Одн\'ако.</a>
-		</div>
+	<div class="gram_lbl" id = "1" ><!--style = "display: none;"-->в зн. союза</div>
+	<div class="def" id = "2" ><!--style = "display: none;"-->В особенности потому, что.</div>
+</div>
+
+<div class="der_phrase">
+	<div class="phrase">
+		<p>Тем не менее</p>
 	</div>
-	<div class="entry">
+	<div class="gram_lbl" id = "1" ><!--style = "display: none;"-->в зн. вводн. сл.</div>
+	<div class="xr">=
+		<a href='#'>Одн\'ако.</a>
+	</div>
+</div>
+
+	<div class="der_phrase">
 		<div class="phrase">
 			<p>Тем паче</p>
 		</div>
-		<div class="gram_lbl">в зн. частицы</div>
-		<div class="usg">Книжн.</div>
+		<div class="gram_lbl" id = "1"> <!--style = "display: none;"-->в зн. частицы</div>
+		<div class="usg">книжн.</div>
 		<div class="xr">=
 			<a href='#'>Тем более.</a>
 		</div>
 	</div>
-	<div class="entry">
+
+	<div class="der_phrase">
 		<div class="phrase">
 			<p>Тем лучше</p>
 		</div>
-		<div class="gram_lbl">в зн. межд.</div>
-		<div class="sense">
-			<div class="def">Выражает одобрение.</div>
-		</div>
+		<div class="gram_lbl" id = "1" ><!--style = "display: none;"-->в зн. межд.</div>
+		<div class="def" id = "2" ><!--style = "display: none;"-->Выражает одобрение.</div>
 	</div>
-	<div class="entry">
+
+	<div class="der_phrase">
 		<div class="phrase">
 			<p>Тем самым</p>
 		</div>
-		<div class="gram_lbl">в зн. союза</div>
+		<div class="gram_lbl" id = "1" ><!--style = "display: none;"-->в зн. союза</div>
 	</div>
-	<div class="entry">
+
+	<div class="der_phrase">
 		<div class="phrase">
 			<p>Чем..., тем</p>
 		</div>
@@ -584,260 +130,5 @@
 			<a href='#'>Чем</a> 
 		</div>
 	</div>
-<div class="superEntry">
-<div class="superEntry">
-    <div class="headword">
-        <p>КРЕМНИСТЫЙ</p>
-        <div class="stress">КРЕМН\'ИСТЫЙ</div class="stress">
-        <div class="orth part">-ая</div>
-        <div class="orth part">-ое </div>
-    </div>
-    <div class="'inflected">
-        <div class="orth part">-нист</div>
-		<div class="stress"> -н\'ист</div class="stress">
-        <div class="orth part">-а</div>
-        <div class="orth part"> -о.</div>
-    </div>
-    <div class="entry">
-        <div class="usg">Трад.-поэт.</div>
-        <div class="sense">
-            <div class="def">Усеянный камнями; каменистый.</div>
-            <div class="example">
-                <p>К-ые вершины гор</p>
-                <div class="'quote">Сквозь туман кремнистый путь блестит
-					<div class="'bibl">
-						<p>Лермонтов</p>
-					</div class="'bibl">
-				</div class="'quote">               
-            </div>
-        </div>
-    </div>
-    <div class="entry">
-		<div class="sense">
-			<div class="xr">к 
-				<a href='#'>Кр\'емний.</a>
-			<div class="xr">
-			<div class="example">
-				<p>К-ые соединения.</p>
-			</div>
-			<div class="def">Содержащий кремний.</div>
-			<div class="example">
-				<p>К-ая сталь.</p>
-			</div>
-        </div>
-        <div class="sense">
-            <div class="def"ема.</div>
-            <div class="example">
-                <p>К. туф.</p>
-                <p> К-ые породы.</p>
-                <p> К. сланец.</p>
-            </div>
-        </div> 
-    </div>
-</div class="superEntry">
-<div class="superEntry">
-	<div class="headword">
-		<p>ВСЁ</p>
-	</div>
-	<div class="entry">
-		<div class="gram_lbl">нареч.</div>
-		<div class="sense">
-			<div class="usg">Разг.</div>
-			<div class="def">Всегда, постоянно.</div>
-			<div class="example">
-				<p>Я всё забываю, как его зовут.</p>
-				<p>Вы всё в разъездах.</p>
-				<p>С утра до вечера всё на ногах.</p>
-				<div class="'quote">*Не всё коту масленица
-					<div class="'bibl">
-						<source>(Погов.)</source>
-					</div class="'bibl">
-				</div class="'quote">
-			</div>
-		</div>
-		<div class="sense">
-			<div class="def">До сих пор.</div>
-			<div class="example">
-				<p>Уже ночь, а его всё нет.</p>
-				<p>Закройщица всё больна?</p>
-			</div>
-		</div>
-		<div class="sense">
-			<div class="def">Только, исключительно, именно.</div>
-			<div class="example">
-				<p>Это всё вы виноваты.</p>
-				<p>Это всё из-за тебя.</p>
-			</div>
-		</div>
-	</div>
-	<div class="entry">
-		<div class="gram_lbl">частица.</div>
-		<div class="usg">(со сл., обозначающим изменяющийся признак)</div>
-		<div class="sense">
-			<div class="def">Указывает на нарастание или устойчивость признака.</div>
-			<div class="example">
-				<p>Шум всё сильней.</p>
-				<p>Больной всё слабеет.</p>
-				<p>На улице всё так же холодно.</p>
-				<p>Она всё такая же.</p>
-			</div>
-		</div>
-	</div>
-	<div class="entry">
-		<div class="gram_lbl">союз</div>
-		<div class="sense">
-			<div class="usg">Разг.</div>
-			<div class="def">Всё-таки.</div>
-			<div class="example">
-				<p>Почитайте, всё не так скучно будет.</p>
-				<p>С ней всё веселей, чем одной.</p>
-			</div>
-		</div>
-		<div class="sense">
-			<div class="def">Однако, тем не менее.</div>
-			<div class="example">
-				<p>Как ни стараешься, всё недовольны.</p>
-				<div class="'quote">*А вы, друзья, как ни садитесь, Всё в музыканты не годитесь
-					<div class="'bibl">
-						<p>(Крылов)</p>
-					</div class="'bibl">
-				</div class="'quote">
-			</div>
-		</div>
-	</div>
-	<div class="entry">
-		<div class="lbl">(И, но, а)</div>
-		<form type="phrase">всё ж;</div>
-		<form type=" phrase ">всё же;</div>
-		<form type=" phrase">всё ж таки.</div>
-		<div class="sense">
-			<div class="gram_lbl">в зн. частицы</div>
-			<div class="def">Употр. для усиления, подчёркивания смысла высказывания.</div>
-			<div class="example">
-				<p>И всё же согласился?</p>
-				<p>Всё же успел.</p>
-				<p>А (но) всё же простила его.</p>
-				<p>И всё ж таки ты не прав.</p>
-			</div>
-		</div>
-		<div class="sense">
-			<div class="gram_lbl">в зн. союза</div>
-			<div class="def">Однако, тем не менее.</div>
-			<div class="example">
-				<p>Задача была сложной, (и, но, а) всё же удалось её решить.</p>
-			</div>
-		</div>
-		<div class="sense">
-			<div class="def">Всё ещё,</div>
-			<div class="gram_lbl">в зн. нареч.</div>
-			<div class="usg">Усилит.</div>
-			<div class="xr">
-				<a href='#'>(1,3 зн.)</a>
-			</div>
-			<div class="example">
-				<p>Он мне всё ещё чужой.</p>
-			</div>
-		</div>
-	</div>
-</div class="superEntry">
-<div class="superEntry">
-		<div class="headword">
-			<p>СЕМЕЧКА</p>
-     		<div class="stress">СЕМ\'ЕЧКА</div class="stress">
-		</div>
-		<div class="entry">
-			<form>
-				<div class="orth part">-и</div>
-				<div class="orth part">-чек</div>
-				<div class="orth part">-чкам</div>
-			</div>
-			<div class="Gram">
-				<div class="gram_lbl">ж.</div>
-			</div>
-			<div class="sense">
-				<div class="def">Одно семечко подсолнуха или тыквы.</div>
-				<div class="example">
-					<p>Разгрызть семечку.</p>
-					<p>Полная, пустая с.</p>
-				</div>
-			</div>
-		</div>
-	</div class="superEntry">
-<div class="superEntry">
-	<div class="headword">
-			<p>ОБЕР-ОФИЦЕР</p>
-			<div class="stress">\'ОБЕР-ОФИЦ\'ЕР</div class="stress">
-			<div class="orth part">-a</div>
-	</div>
-	<div class="entry">
-		<div class="gram_lbl"> м.</div>
-		<div class="sense">
-			<div class="def">В России до 1917 г. и некоторых других странах: офицерский чин от прапорщика (корнета, хорунжего) до капитана (ротмистра, есаула) включительно; офицер в таком чине.</div>
-			<div class="example">
-				<p>Младший обер-офицер.</p>
-				<p>Служил обер-офицером.</p>
-			</div>
-		</div>
-	</div>
-	<div class="entry">
-		<form>
-			<p>Обер-офицерский</p>
-			<div class="orth part">-ая</div>
-			<div class="orth part">-ое</div>
-		<form>
-		<div class="sense">
-			<div class="example">
-				<p>Дослужился до обер-офицерского чина.</p>
-			</div>
-		</div>
-	</div>
-</div class="superEntry">
-<div class="superEntry">
-	<div class="headword">
-		<p>ОБ</p>
-	</div>
-	<div class="entry">
-		<div class="Gram">приставка</div>
-		<div class="usg">служит для образования глаголов</div>
-		<div class="sense">
-			<div class="def" перед гласной</div>
-			<div class="example">
-				<p>обыграть</p>
-				<p>обыскать</p>
-				<p>обучить</p>
-			</div>
-			<div class="def">в некоторых случаях перед согласной</div>
-			<div class="example">
-				<p>обвалять</p>
-				<p>обсчитать</p>
-			</div>
-		</div>
-		<div class="sense">
-			<usg type = "gram">(обычно глаголы с приставкой об... имеют более разговорный и более конкретный характер, чем глаголы с приставкой о...).</div>
-			<def n = "1">Употр. в некоторых случаях наряду с приставкой "о..." перед согласной</div>
-			<div class="example">
-				<p>обсыпать</p>
-				<div class="lbl">(ср. осыпать)</div>
-			</div>
-		</div>
-		<div class="sense">
-			<div class="def">Обозначает: не учесть, обойти кого-, что-л. при распределении чего-л.</div>
-			<div class="example">
-				<p>Обнести, обделить.</p>
-			</div>
-		</div>
-		<div class="sense">
-			<div class="def">Обозначает: опередить кого-л. в действии, проявить своё превосходство над кем-, чем-л. в выполнении действия.</div>
-			<div class="example">
-				<p>Обскакать, обставить</p>
-			</div>
-		</div>
-	</div>
-</div class="superEntry">
-
-
-
-
-
-
-
+</div>
+</div>

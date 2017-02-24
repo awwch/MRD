@@ -49,32 +49,37 @@ def search():
         else:
             i += 1        
     if i >= len(all_words):
-        result = 'Not found'    
+        result = 'Слово не найдено'    
     return render_template('/index.html', key=key, result=result)
-    
+     
 def open_dict(path):
     f = open(path,'r',encoding = 'utf-8')
-    _dict = f.read().split('<div class="superEntry">')
+    _dict = f.read().split('<superEntry>')
     f.close()
     return _dict
-    
+
 def fine_dict(_dict):
     all_words = []
     for art in _dict:      
         if art == '':
             _dict.remove(art)
         else:
-            m = re.search('<div class="headword">\n\t*<p>.+',art)
+            art1 = art.split('\n')
+            tags = []
+            for line in art1:
+                line = '\n<p>' + line + '</p>'
+                tags.append(line)
+            art1 = ''.join(tags)
+            m = re.search('<orth>.+</orth>\n',art)
             if m != None:
                 word = m.group().lower()
                 word = re.sub(r'\<[^>]*\>', '', word).strip()
-                all_words.append({word:art})
+                all_words.append({word:art1})
     return all_words
 
-_dict = open_dict('C:\\Users\\Ania\\Desktop\\mrd-site\\MRD no bs\\gs_html.txt')        
+_dict = open_dict(r'gs.txt')        
 all_words = fine_dict(_dict)
 
 if __name__ == '__main__':
     app.run(port=getuid() + ADDITIVE_FOR_UID, debug=True)
-
- 
+          

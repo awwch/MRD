@@ -3,7 +3,15 @@
     <title>Машиночитаемый словарь</title>
     <meta charset="utf-8"/>
     <link href='https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="static/css/main.css">
+    <link rel="stylesheet" type="text/css" href="static/css/search.css">
+	<script type="text/javascript">
+  function showOrHide(cb, cat) {
+    cb = document.getElementById(cb);
+    cat = document.getElementById(cat);
+    if (cb.checked) cat.style.display = "block";
+    else cat.style.display = "none";
+  }
+</script>
 </head>
 
 <body>
@@ -33,23 +41,46 @@
 		<h2 class="cover-heading">Поиск по словарю</h2>
 		<form action="/index.html" method="post">
 			<input type="text" style="color: black" name=key_word placeholder="Введите слово">
-			<br>
-			<br>
-			<input type="checkbox" name="morpho"/>морфология
-			<input type="checkbox" name="sem"/>семантика
-			<input type="checkbox" name="examples"/>примеры употребления
-			<br>
-			<br>
+				<fieldset id="shest">
+					<legend><input type="checkbox">Показать все</legend>
+<input type="checkbox" name="morpho" id = 'cb1' onchange = 'showOrHide("cb1", "1");'>Морфология
+<br>
+<input type="checkbox" name="style" id = 'cb2' onchange = 'showOrHide("cb2", "2");'>Стилистика
+<br>
+<input type="checkbox" name="examples" id = 'cb3' onchange = 'showOrHide("cb3", "3");'>Примеры
+<br>
+<input type="checkbox" name="derivates" id = 'cb4' onchange = 'showOrHide("cb4", "4");'>Производные
+<br>
+<input type="checkbox" name="derivates" id = 'cb5' onchange = 'showOrHide("cb5", "5");'>Толкование БТС
+<br>
+<input type="checkbox" name="derivates" id = 'cb6' onchange = 'showOrHide("cb6", "6");'>Толкование Дмитриева
+
+				</fieldset>
 			<input type="submit" class="btn btn-lg btn-helveta" value="Искать">
 		</form>
 	</div>
-	<br>
-	<br>
 	<div class="row">
-	
+	<br>
 		{{ result|safe }}
-		
 	</div>
 	<br>
+	<script>
+		var main = document.querySelector('#shest legend [type="checkbox"]'),
+			all = document.querySelectorAll('#shest > [type="checkbox"]');
+
+		for(var i=0; i<all.length; i++) {  // 1 и 2 пункт задачи
+			all[i].onclick = function() {
+				var allChecked = document.querySelectorAll('#shest > [type="checkbox"]:checked').length;
+				main.checked = allChecked == all.length;
+				main.indeterminate = allChecked > 0 && allChecked < all.length;
+			}
+		}
+
+		main.onclick = function() {  // 3
+			for(var i=0; i<all.length; i++) {
+				all[i].checked = this.checked;
+			}
+		}
+	</script>
   </body>
 </html>
