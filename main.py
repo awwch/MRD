@@ -67,9 +67,15 @@ def fine_dict(_dict):
             art1 = art.split('\n')
             tags = []
             for line in art1:
-                line = '\n<p>' + line + '</p>'
+                open_tag = re.findall('<[0-9A-z\s"=]+>',line)
+                #close_tag = re.findall('<\/[A-z]+>',line)
+                for tag in open_tag:
+                    line = line.replace(tag,'<br>'+tag)
+                #for tag in close_tag:
+                    #line = line.replace(tag,tag + '<br>')
+                #line = '\n<p>' + line + '</p>'
                 tags.append(line)
-            art1 = ''.join(tags)
+            art1 = '\n'.join(tags)
             m = re.search('<orth>.+</orth>\n',art)
             if m != None:
                 word = m.group().lower()
