@@ -111,7 +111,8 @@ nav ul ul ul {
 
 /*----SEARCH----*/
 #maket {
-  margin-top: 100px;
+  margin-top: 120px;
+  margin-left:50px;
   width: 100%;
 }
 TD {
@@ -127,6 +128,7 @@ TD#leftcol {
 
 h2 {
   position: fixed;
+  margin-top:30px;
   font-weight:bold;
   color: #222;
   letter-spacing: 1px;
@@ -135,7 +137,7 @@ h2 {
 
 input[type="text"]{
   position: fixed;
-  margin-top:30px;
+  margin-top:70px;
   height: 30px;
   font-size: 100%;
   letter-spacing: 1px;
@@ -144,7 +146,7 @@ input[type="text"]{
 
 input[type="submit"] {
   position: fixed;
-  margin-top:315px;
+  margin-top:200px;
   padding:5px 15px; 
   background:#fff; 
   border: 1px;
@@ -161,9 +163,9 @@ input[type="checkbox"] {
 
 fieldset{
   position: fixed;
-  margin-top:60px;
+  margin-top:110px;
   padding: 5px;
-  border: 1px solid #000;
+  /*border: 1px solid #000;*/
   display: block;
   color: #222;
   font-size: .9em;
@@ -177,29 +179,36 @@ fieldset{
 TD#rightcol {
   text-align: left;
 }
+hr {
+  border: 0;
+}
 
-form[type = "headword"] orth {
+orth,stress,form [type = "inflected"],usg[type = "gram"]{
   font-size: 120%;
   letter-spacing: 1px;
+  text-transform: lowercase;
 }
 
-form[type = "headword"] stress{
-  font-size: 150%;
-  letter-spacing: 2px;
-  }
-
-form [type = "inflected"]{
-  font-size: 130%;
-  letter-spacing: 2px;
-}
-
-orth[extent = "part"] {
+iType,case,pos,gen {
   font-style: italic;
+  font-size: 100%;
+}
+
+form[type = "headword"] orth,form [type = "derivative"] orth{
+  font-size: 150%;
+  text-transform: uppercase;
 }
 
 def{
-  letter-spacing: 1px;
+  font-size: 130%;
+  margin:80px;
+  font-style: normal;
+  font-weight:500;
+}
+usg def{
+  font-style: normal;
   font-size: 110%;
+  margin:50px;
 }
 
 q{
@@ -209,20 +218,37 @@ q{
   font-weight:300;
 }
 
-usg[type = "gram"],iType,case{
-  text-transform: lowercase;
-  font-size: 95%;
-  font-style: italic;
-}
-
 usg[type = "plev"]{
 }
 
-usg{
+pron{
+  letter-spacing: 2px;
+  font-size: 120%;
+  margin: 30px;
+  
 }
 
 lbl{
+  font-size: 90%;
+  letter-spacing: 0px;
+  font-style: italic;
+}
+
+lbl def{
+  font-size: 100%;
+  font-style: normal;
+  margin:50px;
 }
 
 xr{
+}
+
+etym lang,etym mentioned,etym gloss{
+  font-style: italic;
+  font-size: 120%;
+  margin: 30px;
+}
+
+etym mentioned{
+  font-weight: 300;
 }

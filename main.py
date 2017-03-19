@@ -64,26 +64,24 @@ def fine_dict(_dict):
         if art == '':
             _dict.remove(art)
         else:
-            art1 = art.split('\n')
-            tags = []
-            for line in art1:
-                open_tag = re.findall('<[0-9A-z\s"=]+>',line)
-                #close_tag = re.findall('<\/[A-z]+>',line)
-                for tag in open_tag:
-                    line = line.replace(tag,'<br>'+tag)
-                #for tag in close_tag:
-                    #line = line.replace(tag,tag + '<br>')
-                #line = '\n<p>' + line + '</p>'
-                tags.append(line)
-            art1 = '\n'.join(tags)
-            m = re.search('<orth>.+</orth>\n',art)
+            art1 = art#.split('\n')
+            #tags = []
+            #for line in art1:
+                #if '<' not in line:
+                 #   line = '<p>'+line+'</p>'
+                #open_tag = re.findall('^<[0-9A-z\s"=]+>',line)
+                #for tag in open_tag:
+                 #   line = line.replace(tag,'<hr>'+tag)
+                #tags.append(line)
+            #art1 = '\n'.join(tags)
+            m = re.search('<form type="headword">\n.+',art)
             if m != None:
                 word = m.group().lower()
-                word = re.sub(r'\<[^>]*\>', '', word).strip()
-                all_words.append({word:art1})
+                word = re.sub('[^А-яЁё\-]', '',word)
+                all_words.append({word:'<superEntry>\n'+art1})
     return all_words
 
-_dict = open_dict(r'gs.txt')        
+_dict = open_dict(r'BTS_7.txt')        
 all_words = fine_dict(_dict)
 
 if __name__ == '__main__':
