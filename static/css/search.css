@@ -146,7 +146,7 @@ input[type="text"]{
 
 input[type="submit"] {
   position: fixed;
-  margin-top:200px;
+  margin-top:110px;
   padding:5px 15px; 
   background:#fff; 
   border: 1px;
@@ -163,7 +163,7 @@ input[type="checkbox"] {
 
 fieldset{
   position: fixed;
-  margin-top:110px;
+  margin-top:180px;
   padding: 5px;
   /*border: 1px solid #000;*/
   display: block;
@@ -174,68 +174,96 @@ fieldset{
   text-transform: uppercase;
 }
 
+.instr{
+  position:fixed;
+  width: 15%;
+  font-style: italic;
+  margin-top:260px;
+  margin-left:10px;
+  color: #808080;
+  font-weight:300;
+}
 /*----RESULT----*/
 
 TD#rightcol {
   text-align: left;
+  width:100%;
 }
+
+h3 {
+  color: #222;
+  font-size: 1em;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.dmitr{
+  border-top-style: solid;
+  border-top-width: 1px;
+  color: #808080;
+}
+
 hr {
   border: 0;
 }
 
-orth,stress,form [type = "inflected"],usg[type = "gram"]{
-  font-size: 120%;
+orth,stress,form [type = "inflected"],form[type = "headword"] orth,form [type = "derivative"]/*usg[type = "gram"]*/{
+  font-size: 14pt;
   letter-spacing: 1px;
   text-transform: lowercase;
 }
-
-iType,case,pos,gen {
-  font-style: italic;
-  font-size: 100%;
+gencase {
+  font-size: 12pt;
 }
 
-form[type = "headword"] orth,form [type = "derivative"] orth{
-  font-size: 150%;
-  text-transform: uppercase;
+iType,case,pos,gen{
+  font-style: italic;
+  font-size: 12pt;
 }
 
 def{
-  font-size: 130%;
-  margin:80px;
+  font-size: 15pt;
+  margin-left:20px;
   font-style: normal;
   font-weight:500;
 }
 usg def{
   font-style: normal;
-  font-size: 110%;
+  font-size: 12pt;
   margin:50px;
 }
 
 q{
   font-style: italic;
-  margin-left: 30px;
-  font-size: 120%;
+  /*margin-left: 30px;*/
+  font-size: 13pt;
   font-weight:300;
+  quotes:none;
 }
 
 usg[type = "plev"]{
 }
 
+usg{
+  font-style: italic;
+}
+
 pron{
   letter-spacing: 2px;
-  font-size: 120%;
+  font-size: 13pt;
   margin: 30px;
   
 }
 
 lbl{
-  font-size: 90%;
+  font-size: 13pt;
   letter-spacing: 0px;
   font-style: italic;
 }
 
 lbl def{
-  font-size: 100%;
+  font-size: 13pt;
   font-style: normal;
   margin:50px;
 }
@@ -243,12 +271,11 @@ lbl def{
 xr{
 }
 
-etym lang,etym mentioned,etym gloss{
+etym lang{
   font-style: italic;
-  font-size: 120%;
-  margin: 30px;
 }
 
-etym mentioned{
-  font-weight: 300;
+etym mentioned {
+  border-bottom:  1px dashed #000080;
+  letter-spacing: 1px;
 }

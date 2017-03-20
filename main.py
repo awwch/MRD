@@ -64,16 +64,7 @@ def fine_dict(_dict):
         if art == '':
             _dict.remove(art)
         else:
-            art1 = art#.split('\n')
-            #tags = []
-            #for line in art1:
-                #if '<' not in line:
-                 #   line = '<p>'+line+'</p>'
-                #open_tag = re.findall('^<[0-9A-z\s"=]+>',line)
-                #for tag in open_tag:
-                 #   line = line.replace(tag,'<hr>'+tag)
-                #tags.append(line)
-            #art1 = '\n'.join(tags)
+            art1 = art
             m = re.search('<form type="headword">\n.+',art)
             if m != None:
                 word = m.group().lower()
